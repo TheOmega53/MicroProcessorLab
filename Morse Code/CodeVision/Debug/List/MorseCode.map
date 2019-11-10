@@ -1,0 +1,26 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+time_count                                                                        0x0160       2
+blink                                                                             0x0162       2
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+hold                                                                              R5           1
+isOpening                                                                         R4           1
+isResetting                                                                       R7           1
+code                                                                              R6           1
+input                                                                             R9           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+ext_int0_isr                                                                      0x0005E     37
+ext_int1_isr                                                                      0x00083     23
+timer0_ovf_isr                                                                    0x0009A     56
+main                                                                              0x000D2     67

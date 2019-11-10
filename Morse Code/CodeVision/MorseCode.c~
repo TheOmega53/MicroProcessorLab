@@ -1,0 +1,17 @@
+/*
+ * MorseCode.c
+ *
+ * Created: 11/10/2019 2:27:13 PM
+ * Author: Alireza
+ */
+
+#include <io.h>
+
+void main(void)
+{
+while (1)
+    {
+    // Please write your application code here
+
+    }
+}

@@ -23,11 +23,11 @@ FLASH Allocation [words]
 Function                                                                          Address   Size
 ------------------------------------------------------------------------------------------------
 read_adc                                                                          0x00075     14
-main                                                                              0x00083    197
-_lcd_write_nibble_G100                                                            0x00148     20
-_lcd_write_data                                                                   0x0015C     12
-lcd_gotoxy                                                                        0x00168     13
-lcd_clear                                                                         0x00175     10
-lcd_putchar                                                                       0x0017F     21
-lcd_puts                                                                          0x00194     17
-lcd_init                                                                          0x001A5     43
+main                                                                              0x00083    194
+_lcd_write_nibble_G100                                                            0x00145     20
+_lcd_write_data                                                                   0x00159     12
+lcd_gotoxy                                                                        0x00165     13
+lcd_clear                                                                         0x00172     10
+lcd_putchar                                                                       0x0017C     21
+lcd_puts                                                                          0x00191     17
+lcd_init                                                                          0x001A2     43
